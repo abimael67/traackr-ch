@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed page tests renders correctly 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="navbar-brand"
+    >
+      <a
+        className="navbar-item"
+      >
+        <img
+          alt="Logo"
+          src="logo.png"
+        />
+      </a>
+    </div>
+    <div
+      className="navbar-menu"
+    >
+      <div
+        className="navbar-end"
+      >
+        <div
+          className="navbar-item"
+        >
+          <div
+            className="field is-grouped"
+          >
+            <p
+              className="control dash"
+            >
+              Dashboard
+            </p>
+            <p
+              className="control"
+            >
+              <a
+                className="button influencer-list-button"
+              >
+                <span>
+                  Influencer List
+                </span>
+              </a>
+            </p>
+            <a>
+              <ion-icon
+                name="person-circle-outline"
+                size="large"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav
+    className="level"
+  >
+    <div
+      className="level-left"
+    >
+      <div
+        className="level-item"
+      >
+        <div
+          className="title"
+        >
+          <h1
+            className="title is-1"
+          >
+            Influencers
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div
+      className="level-right"
+    >
+      <div
+        className="field"
+      >
+        <p
+          className="control has-icons-left has-icons-right"
+        >
+          <input
+            aria-label="search-input"
+            className="input search-input"
+            onChange={[Function]}
+            placeholder="Search for an influencer"
+            type="text"
+          />
+          <span
+            className="icon is-small is-left"
+          >
+            <ion-icon
+              name="search-outline"
+            />
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="columns is-multiline"
+  />
+  <nav
+    aria-label="pagination"
+    className="pagination is-centered"
+    role="navigation"
+  >
+    <a
+      className="pagination-previous"
+      onClick={[Function]}
+    >
+      Previous
+    </a>
+    <a
+      className="pagination-next"
+      onClick={[Function]}
+    >
+      Next page
+    </a>
+    <ul
+      className="pagination-list"
+    />
+  </nav>
+  <br />
+</div>
+`;

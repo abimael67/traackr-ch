@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination tests renders correctly 1`] = `
+<nav
+  aria-label="pagination"
+  className="pagination is-centered"
+  role="navigation"
+>
+  <a
+    className="pagination-previous"
+  >
+    Previous
+  </a>
+  <a
+    className="pagination-next"
+  >
+    Next page
+  </a>
+  <ul
+    className="pagination-list"
+  >
+    <li>
+      <a
+        aria-label="Goto page 1"
+        className="pagination-link "
+        data-testid="pagination-link"
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 2"
+        className="pagination-link "
+        data-testid="pagination-link"
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 3"
+        className="pagination-link "
+        data-testid="pagination-link"
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

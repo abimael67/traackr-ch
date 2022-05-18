@@ -1,0 +1,35 @@
+.checkmark-container {
+    position: absolute;
+    bottom: -10%;
+    right:35%;
+    border-radius: 100px;
+    border:3px solid white;
+    height: 16px;
+    width: 16px;
+    width:22px;
+    height:22px;
+    
+}
+
+.checkmark-container ion-icon{
+    color:green;
+    background-color: white;
+    font-size: 20px;
+    position: absolute;
+    left:-2px;
+    top:-2px;
+    border-radius: 100%;
+}
+
+#social-networks ion-icon:hover{
+    color:#475569;
+}
+
+.card{
+    border-radius: 32px;
+}
+
+.card:hover{
+    border: 3px solid #CBD5E1;
+    background-color: #F9FAFB;
+}
